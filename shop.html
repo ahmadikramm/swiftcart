@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - SwiftCart</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav {
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            margin-top: 30px; 
+        }
+
+        .product {
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        .product p {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .product .price {
+            font-size: 1.1em;
+            color: #007bff;
+        }
+
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>SwiftCart</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="shop">
+        <div class="container">
+            <h2 class="page-title">Our Products</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="New folder (2)/Apple-Watch-Ultra-2-Alt-Gear.jpg" alt="Product 1">
+                    <h3>Watch</h3>
+                    <p>Description of Product.</p>
+                    <p class="price">$29.99</p>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product">
+                    <img src="New folder (2)/Pk5ydxYo6ty2Q4SX9vznP6.jpg" alt="Product 2">
+                    <h3>Band</h3>
+                    <p>Description of Product.</p>
+                    <p class="price">$39.99</p>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product">
+                    <img src="New folder (2)/protablets-2048px-9913-2x1-1.jpg" alt="Product 3">
+                    <h3>Laptop</h3>
+                    <p>Description of Product.</p>
+                    <p class="price">$49.99</p>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product">
+                    <img src="New folder (2)/ps5thumb-1696954542971.jpg" alt="Product 4">
+                    <h3>PlayStation</h3>
+                    <p>Description of Product.</p>
+                    <p class="price">$59.99</p>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product">
+                    <img src="New folder (2)/shutterstock_1736005427212121212.jpg" alt="Product 5">
+                    <h3>Andriod</h3>
+                    <p>Description of Product.</p>
+                    <p class="price">$69.99</p>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product">
+                    <img src="New folder (2)/W56yyUCBUdM6Um5T96kmvm.jpg" alt="Product 6">
+                    <h3>Assistant</h3>
+                    <p>Description of Product.</p>
+                    <p class="price">$79.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact us at support@swiftcart.com</p>
+            <ul class="social-icons">
+                <li><a href="#"><img src="New folder/facebook (1).png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="New folder/twitter.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="New folder/instagram.png" alt="Instagram"></a></li>
+            </ul>
+            <p>&copy; 2024 SwiftCart. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
